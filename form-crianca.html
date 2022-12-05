@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main aria-label="conteúdo principal do site">
+    <div class="container">
+      <h1 class="text-center" id="titulo-principal">Formulário de Cadastro de Crianças</h1><br>
+      <p class="text-justified">Entre com os para cadastrar uma criança no nosso projeto.</p>
+      <div>
+        <form class="form">
+            <div class="form-group">
+              <label for="nomeCrianca">Nome completo da criança</label>
+              <input type="text" class="form-control" id="nomeCrianca" placeholder="Digite seu nome neste campo">
+            </div>
+            <div class="form-group">
+              <label for="idade">Idade da criança</label>
+              
+              <input type="number" class="form-control" id="idade" placeholder="Digite a idade neste campo Ex: 7 anos">
+            </div>
+            <div class="form-group">
+              <label for="genero">Gênero</label>
+              
+              <input type="number" class="form-control" id="genero" placeholder="Digite o gênero neste campo Ex: menina">
+            </div>
+            <div class="form-group">
+              <label for="tamanhoRoupa">Tamanho da roupa</label>
+              
+              <input type="number" class="form-control" id="tamanhoRoupa" placeholder="Digite o tamanho da roupa nesse campo">
+            </div>
+            <div class="form-group">
+              <label for="tamanhoCalcado">Tamanho do calçado</label>
+              
+              <input type="number" class="form-control" id="tamanhoCalcado" placeholder="Digite o tamanho da roupa nesse campo">
+            </div>
+            <div class="form-group">
+              <label for="contato">Telefone para contato do responsável</label>
+              
+              <input type="number" class="form-control" id="contato" placeholder="Digite seu celular neste campo (00) 0 0000-0000">
+            </div>
+            <div class="form-group">
+              <label for="nomeResponsavel">Nome do responsável</label>
+              
+              <input type="number" class="form-control" id="nomeResponsavel" placeholder="Digite seu celular neste campo (00) 0 0000-0000">
+            </div>
+            <button class="btn btn-primary" type="submit">Salvar</button>
+            </form>
+          <hr class="my-4">
+
+          <h2>Lista de Crianças cadastrados</h2>
+
+          <table class="table table-bordered">
+            <thead>
+              <th>nome da criança</th>
+              <th>idade</th>
+              <th>gênero</th>
+              <th>tamanho da roupa</th>
+              <th>tamanho do calçado</th>
+              <th>contato do responsável</th>
+              <th>nome do responsável</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+    </div>  
+  </main>
+</body>
+</html>
