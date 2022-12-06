@@ -1,4 +1,4 @@
-const Padrinho = require('./Padrinho.js');
+const Padrinho = require('../models/Padrinho.js');
 describe("Teste da classe Pdrinho", () => {
     const padrinho1 = new Padrinho();
 

@@ -68,3 +68,9 @@ main section p a {
     color: burlywood;
     text-decoration: none;
 }
+
+section.crianca, 
+section.padrinho {
+    margin-bottom: 50px;
+    display: none;
+}

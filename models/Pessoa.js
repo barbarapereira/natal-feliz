@@ -5,18 +5,22 @@ function returnId(){
 
 class Pessoa {
     id = returnId()
-    nome = "";
-    sobrenome = "";
+    nomeCompleto = "";
     contato= "";
   
-    constructor(nome, sobrenome, contato) {
-      this.nome = nome;
-      this.sobrenome = sobrenome;
+    constructor(nomeCompleto, contato) {
+      this.nomeCompleto = nomeCompleto;
       this.contato = contato
     }
+
+    static listaParticipante = {
+      criancas: [],
+      padrinhos: []
+    }  
+
 }
   
   // let candidato = new Pessoa("Barbara", "Pereira", "(13)99137-2617");
   // console.log(candidato);
-  
+  //console.log(Pessoa.listaParticipante)
 module.exports = Pessoa;
