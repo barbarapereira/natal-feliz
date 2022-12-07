@@ -13,9 +13,9 @@ let padrinho3 = new Padrinho("Luana Dias", "(22)9147-3578", "Menina");
 console.log(
   `----------------------------------\nPadrinhos cadastrados\n----------------------------------`
 );
-console.table(padrinho1);
-console.table(padrinho2);
-console.table(padrinho3);
+// console.table(padrinho1);
+// console.table(padrinho2);
+// console.table(padrinho3);
 
 //instanciando criança
 
@@ -28,7 +28,7 @@ let crianca1 = new Crianca(
   "tam 9",
   "32"
 );
-crianca1.vincularPadrinho(padrinho1);
+crianca1.vincularPadrinho();
 
 let crianca2 = new Crianca(
   "Luana Costa",
@@ -39,7 +39,7 @@ let crianca2 = new Crianca(
   "tam 3",
   "20"
 );
-crianca1.vincularPadrinho(padrinho2);
+crianca1.vincularPadrinho();
 
 let crianca3 = new Crianca(
   "Roberto Santos",
@@ -64,10 +64,10 @@ let crianca4 = new Crianca(
 console.log(
   `----------------------------------\nCrianças cadastradas\n----------------------------------`
 );
-console.table(crianca1);
-console.table(crianca2);
-console.table(crianca3);
-console.table(crianca4);
+// console.table(crianca1);
+// console.table(crianca2);
+// console.table(crianca3);
+// console.table(crianca4);
 
 console.log(
   `----------------------------------\nCrianças apadrinhadas\n----------------------------------`
