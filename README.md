@@ -50,7 +50,7 @@ A dificldade atualmente está em otimizar a lista de padrinhos e crianças, pode
 ## 💻 Informações Técnicas
 
  Para rodar este projeto, será necessário instalar:
- - [Visual Studio Code]("https://code.visualstudio.com/download"): editor de código para exercutar a aplicação 
+ - [Visual Studio Code]("https://code.visualstudio.com/download"): editor de código para executar a aplicação 
  - [Node]("https://docs.npmjs.com/downloading-and-installing-node-js-and-npm"): uma tecnologia usada para executar código JavaScript fora do navegador
  - [Jest]("https://jestjs.io/docs/getting-started"): para rodar os testes unitários
 
