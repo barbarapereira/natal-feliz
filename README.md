@@ -44,7 +44,7 @@ Este projeto está sendo desenvolvido com ambito social, buscando otimizar o tem
 A dificldade atualmente está em otimizar a lista de padrinhos e crianças, podendo centralizar as informações em um local e realizar consultas e filtos para buscar informações especíicas.
 
 
-## Informações Técnicas
+## 💻 Informações Técnicas
 
  Para rodar este projeto, será necessário instalar:
  - [Visual Studio Code]("https://code.visualstudio.com/download"): editor de código para exercutar a aplicação 
@@ -73,7 +73,7 @@ static listaParticipante = {
 
   ```
   
-### Classe Padrinho
+### 👩‍🦱👨 Classe Padrinho
 A Classe Padrinho será extendida da Classe Pessoa. Além das informações recebida da Classe Pessoa, receberá como atributo **escolherGenero** onde o padrinho, ao realizar o cadastro, informará qual o gênero da criança que deseja apadrinhar.
 
 No construtor, eu invoco o método estático contido na classe Pessoa, para que quando eu cria um novo padrinho, o mesmo seja adicionado no array de padrinhos, conforme o exemplo a seguir:
@@ -81,7 +81,7 @@ No construtor, eu invoco o método estático contido na classe Pessoa, para que 
   Pessoa.listaParticipante.padrinhos.push(this);
 ```
 
-### Classe Crianca
+### 👧👦 Classe Crianca
 Ja na Classe Crianca, alem dos dados herdados de Pessoa, receberá os atributos: **nomeDoResponsavel, idade, genero, tamanhoRoupa, tamanhoSapato**, onde irão complementar o cadastro com informações da criança e dados para contato com o responável.
 
 No construtor, eu invoco o método estático contido na classe Pessoa, para que quando eu cria um nova criança, o mesmo seja adicionado no array de crianças, conforme o exemplo a seguir:
@@ -121,10 +121,10 @@ Visando melhorias futuras, mapeei alguns pontos que poderão ser aplicados
 
 
 ## Objetivo final:
-Ter a aplicação completa para ser usada no cadastro de sacolinhas do Natal de 2023
+Ter a aplicação completa para ser usada no cadastro de sacolinhas do Natal de 2023 🎉
 
 
- ### Contatos da [Bárbara Pereira](https://github.com/barbarapereira)
+ ### Contatos da [Bárbara Pereira](https://github.com/barbarapereira) 💓
  <br>
 
  <a href = "mailto:barbara.pereira1990@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">   </a>
