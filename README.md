@@ -14,7 +14,10 @@ Desenvolver uma aplicação para cadastrar padrinhos e crianças para doação d
 
 ### Qual problema resolver com o projeto?
 
-Organizar e otimizar o cadastro de padrinhos e crianças para a doação de sacolinhas de Natal, de forma simplificada, facilitando a comunicação, vinculação e confirmação dos participantes
+Organizar e otimizar o cadastro de padrinhos e crianças para a doação de sacolinhas de Natal, de forma simplificada, facilitando a comunicação, vinculação e confirmação dos participantes.
+Neste cenário, a pessoa responsável por administrar a lista de participantes consegue gerenciar e distribuir melhor as informações.
+
+**Observação:** A escolha das crianças não está habilitada para o padrinho, pois normalmente as crianças mais velhas acabam tendo mais dificuldades em conseguir padrinhos. E o objetivos é que todos os cadastrados sejam agraciados.
 
 ---
 
@@ -91,7 +94,7 @@ No construtor, eu invoco o método estático contido na classe Pessoa, para que 
 
 - **vincularPadrinho:** É o método responsável por vincular um padrinho à uma criança. 
 O método inicia verificando se o atributo padrinhoCadastrado criado na classe Criança é diferente de vazio, se for verdadeiro, a criança já possui um padrinho vinculado.
-Se não entrar na primeira validação, é executava uma nova validação, onde verifica se o atributo estático de padrinho não está vazio, caso preenchido, verifica no na informação do padrinho qual o gênero da criança que o padrinho deseja e vincula com a criança do mesmo gênero.
+Se não entrar na primeira validação, é executava uma nova validação, onde verifica se o atributo estático de padrinho não está vazio, caso preenchido, verifica no na informação do padrinho qual o gênero da criança que o padrinho deseja e vincula com a criança do mesmo gênero. Dessa forma os padrinhos ficam vinculadas com uma única criança
 ```javascript
 vincularPadrinho() {
     if (this.padrinhoCadastrado.length != 0) {
