@@ -116,7 +116,7 @@ Visando melhorias futuras, mapeei alguns pontos que poderão ser aplicados
   - criar os atibutos privados
   - traduzir o código para inglês
   - validar o campo contato com regex
-  - criar mpetodos de editar informação e excluir informação
+  - criar métodos de editar informação e excluir informação
   - exportar os dados em excel
   - integrar o código com o html
   - hospedar a página
