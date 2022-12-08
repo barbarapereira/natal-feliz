@@ -28,19 +28,6 @@ class Crianca extends Pessoa {
     Pessoa.listaParticipante.criancas.push(this);
   }
 
-  vincularPadrinho(padrinho) {
-    if (padrinho instanceof Padrinho) {
-      //  cada padrinho será único, só apadrinhará 1 criaça
-      if (this.padrinhoCadastrado.length != 0) {
-        console.log("a criança já possui um padrinho");
-      } else {
-        return this.padrinhoCadastrado.push(padrinho.id);
-      }
-      //verificar na lista de crianças quais padrinhos estão vinculados(retorna a lista de padrinhos vinculados)
-    }
-  }
-
-
   vincularPadrinho() {
     if (this.padrinhoCadastrado.length != 0) {
         console.log("a criança já possui um padrinho");
