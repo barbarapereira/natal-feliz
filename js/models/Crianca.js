@@ -50,4 +50,5 @@ export class Crianca extends Pessoa {
   get tamanhoSapato() {
     return this.#tamanhoSapato;
   }
+
 }

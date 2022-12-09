@@ -11,6 +11,10 @@ export class Pessoa {
     this.#id = generateId();
   }
 
+  equals(outro) {
+    return this.#id === outro.#id;
+  }
+
   get id() {
     return this.#id;
   }
@@ -24,8 +28,3 @@ export class Pessoa {
   }
 
 }
-
-// let candidato = new Pessoa("Barbara", "Pereira", "(13)99137-2617");
-// console.log(candidato);
-//console.log(Pessoa.listaParticipante)
-module.exports = Pessoa;
